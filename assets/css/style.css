@@ -2554,6 +2554,7 @@ img.left {
   background-image: -webkit-linear-gradient(left, #90ce85, #00dead, #338b93);
   background-image: -o-linear-gradient(left, #90ce85, #00dead, #338b93);
   background-image: linear-gradient(to right, #90ce85, #00dead, #338b93);
+  color: #fff;
 }
 
 .gr-green-bg.shadow-gr {
@@ -3798,9 +3799,9 @@ img.left {
   display: none;
 }
 
-.navbar .logo {
+/* .navbar .logo {
   width: 70px;
-}
+} */
 
 .navbar .search-area {
   padding-left: 20px;

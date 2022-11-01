@@ -109,13 +109,6 @@ $(function () {
     });
 
 
-    $('.fixed-search .search-area').on("click", ".search-icon", function () {
-        $(this).toggleClass("active");
-        $(".fixed-search .search-area").toggleClass("search-on");
-    });
-
-
-
     /* ===============================  Mouse Hover  =============================== */
 
     $('.feat').on('mouseenter', '.items', function () {
@@ -123,51 +116,6 @@ $(function () {
     });
 
     document.querySelectorAll('.button').forEach(button => button.innerHTML = '<div><span>' + button.textContent.trim().split('').join('</span><span>') + '</span></div>');
-
-
-    /* ===============================  tabs  =============================== */
-
-    $('.tabs .tab-links').on('click', '.item-link', function () {
-
-        var tab_id = $(this).attr('data-tab');
-
-        $('.tabs .tab-links .item-link').removeClass('current');
-        $(this).addClass('current');
-
-        $('.tab-content').slideUp();
-        $("#" + tab_id).slideDown();
-
-    });
-
-    $('.tabs-fade .tab-links').on('click', '.item-link', function () {
-
-        var tab2_id = $(this).attr('data-tab');
-
-        $('.tabs-fade .tab-links .item-link').removeClass('current');
-        $(this).addClass('current');
-
-        $('.tab-content').fadeOut();
-        $("#" + tab2_id).fadeIn();
-
-    });
-
-
-    /* ===============================  accordion  =============================== */
-
-    $(".accordion").on("click", ".title", function () {
-
-        $(this).next().slideDown();
-
-        $(".accordion-info").not($(this).next()).slideUp();
-
-    });
-
-    $(".accordion").on("click", ".item", function () {
-
-        $(this).addClass("active").siblings().removeClass("active");
-
-    });
-
 
 
     /* ===============================  TriggerPlugins  =============================== */
@@ -186,39 +134,11 @@ $(function () {
     });
 
 
-    /* --------- magnificPopup --------- */
-
-    $('.popup-img , .gallery').magnificPopup({
-        delegate: '.popimg',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-
-
-    /* --------- justifiedGallery --------- */
-
-    $('.justified-gallery').justifiedGallery({
-        rowHeight: 400,
-        lastRow: 'nojustify',
-        margins: 15
-    });
-
-
     /* --------- hover3d --------- */
 
     $(".hover3d").hover3d({
         selector: ".hover3d-child",
         invert: true
-    });
-
-
-    /* --------- countUp --------- */
-
-    $('.number-sec .count').countUp({
-        delay: 10,
-        time: 500
     });
 
 });
@@ -248,26 +168,6 @@ $(window).on("load", function () {
         delay: 1,
         scale: 1.1
     });
-
-
-    /* ===============================  isotope Masonery  =============================== */
-
-    $('.gallery').isotope({
-        itemSelector: '.items'
-    });
-
-    var $gallery = $('.gallery').isotope();
-
-    $('.filtering').on('click', 'span', function () {
-        var filterValue = $(this).attr('data-filter');
-        $gallery.isotope({ filter: filterValue });
-    });
-
-    $('.filtering').on('click', 'span', function () {
-        $(this).addClass('active').siblings().removeClass('active');
-    });
-
-
 
 });
 
