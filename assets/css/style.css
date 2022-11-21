@@ -2515,9 +2515,9 @@ img.left {
 }
 
 .gr-green-orange-bg {
-  background-image: -webkit-linear-gradient(320deg, #00dead, #90ce85, #ffd429);
-  background-image: -o-linear-gradient(320deg, #00dead, #90ce85, #ffd429);
-  background-image: linear-gradient(130deg, #00dead, #90ce85, #ffd429);
+  background-image: -webkit-linear-gradient(320deg, #6c9bec, #5f8bd8, #ffd429);
+  background-image: -o-linear-gradient(320deg, #6c9bec, #5f8bd8, #ffd429);
+  background-image: linear-gradient(130deg, #6c9bec, #5f8bd8, #ffd429);
 }
 
 .gr-green-orange-bg.shadow-gr {
@@ -2532,28 +2532,28 @@ img.left {
 }
 
 .gr-green-orange-bg.revers-gr:hover {
-  background-image: -webkit-linear-gradient(320deg, #00dead 0%, #90ce85 100%, #ffd429 0%);
-  background-image: -o-linear-gradient(320deg, #00dead 0%, #90ce85 100%, #ffd429 0%);
-  background-image: linear-gradient(130deg, #00dead 0%, #90ce85 100%, #ffd429 0%);
+  background-image: -webkit-linear-gradient(320deg, #6c9bec 0%, #5f8bd8 100%, #ffd429 0%);
+  background-image: -o-linear-gradient(320deg, #6c9bec 0%, #5f8bd8 100%, #ffd429 0%);
+  background-image: linear-gradient(130deg, #6c9bec 0%, #5f8bd8 100%, #ffd429 0%);
 }
 
 .gr-green-orange-text {
-  background-image: -webkit-linear-gradient(320deg, #00dead, #90ce85, #ffd429);
-  background-image: -o-linear-gradient(320deg, #00dead, #90ce85, #ffd429);
-  background-image: linear-gradient(130deg, #00dead, #90ce85, #ffd429);
+  background-image: -webkit-linear-gradient(320deg, #6c9bec, #5f8bd8, #ffd429);
+  background-image: -o-linear-gradient(320deg, #6c9bec, #5f8bd8, #ffd429);
+  background-image: linear-gradient(130deg, #6c9bec, #5f8bd8, #ffd429);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gr-green-orange-bord {
-  border-image-source: linear-gradient(130deg, #00dead, #90ce85, #ffd429) !important;
+  border-image-source: linear-gradient(130deg, #6c9bec, #5f8bd8, #ffd429) !important;
 }
 
 .gr-green-bg {
-  background-image: -webkit-gradient(linear, left top, right top, from(#90ce85), color-stop(#00dead), to(#338b93));
-  background-image: -webkit-linear-gradient(left, #90ce85, #00dead, #338b93);
-  background-image: -o-linear-gradient(left, #90ce85, #00dead, #338b93);
-  background-image: linear-gradient(to right, #90ce85, #00dead, #338b93);
+  background-image: -webkit-gradient(linear, left top, right top, from(#5f8bd8), color-stop(#6c9bec), to(#3e66ad));
+  background-image: -webkit-linear-gradient(left, #5f8bd8, #6c9bec, #3e66ad);
+  background-image: -o-linear-gradient(left, #5f8bd8, #6c9bec, #3e66ad);
+  background-image: linear-gradient(to right, #5f8bd8, #6c9bec, #3e66ad);
   color: #fff;
 }
 
@@ -2563,19 +2563,19 @@ img.left {
 }
 
 .gr-green-text {
-  background-image: -webkit-gradient(linear, left top, right top, from(#90ce85), color-stop(#00dead), to(#338b93));
-  background-image: -webkit-linear-gradient(left, #90ce85, #00dead, #338b93);
-  background-image: -o-linear-gradient(left, #90ce85, #00dead, #338b93);
-  background-image: linear-gradient(to right, #90ce85, #00dead, #338b93);
+  background-image: -webkit-gradient(linear, left top, right top, from(#5f8bd8), color-stop(#6c9bec), to(#3e66ad));
+  background-image: -webkit-linear-gradient(left, #5f8bd8, #6c9bec, #3e66ad);
+  background-image: -o-linear-gradient(left, #5f8bd8, #6c9bec, #3e66ad);
+  background-image: linear-gradient(to right, #5f8bd8, #6c9bec, #3e66ad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gr-green-bord {
-  background-image: -webkit-gradient(linear, left top, right top, from(#90ce85), color-stop(#00dead), to(#338b93)) !important;
-  background-image: -webkit-linear-gradient(left, #90ce85, #00dead, #338b93) !important;
-  background-image: -o-linear-gradient(left, #90ce85, #00dead, #338b93) !important;
-  background-image: linear-gradient(to right, #90ce85, #00dead, #338b93) !important;
+  background-image: -webkit-gradient(linear, left top, right top, from(#5f8bd8), color-stop(#6c9bec), to(#3e66ad)) !important;
+  background-image: -webkit-linear-gradient(left, #5f8bd8, #6c9bec, #3e66ad) !important;
+  background-image: -o-linear-gradient(left, #5f8bd8, #6c9bec, #3e66ad) !important;
+  background-image: linear-gradient(to right, #5f8bd8, #6c9bec, #3e66ad) !important;
 }
 
 .gr-sunrise-bg {
@@ -9848,7 +9848,7 @@ header.simple-header .path a:after {
   text-align: center;
   border-radius: 30px;
   border: none;
-  background-image: linear-gradient(to right, #90ce85, #00dead, #338b93);
+  background-image: linear-gradient(to right, #5f8bd8, #6c9bec, #3e66ad);
   color: #fff;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -9856,7 +9856,7 @@ header.simple-header .path a:after {
 }
 
 .contact-crv form button:hover {
-  background-image: linear-gradient(to right, #338b93, #00dead, #90ce85);
+  background-image: linear-gradient(to right, #3e66ad, #6c9bec, #5f8bd8);
 }
 
 .contact-crv .google-maps {
